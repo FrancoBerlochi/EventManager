@@ -3,6 +3,7 @@ import Dashboard from "./components/dashboard/Dashboard";
 import Protected from "./components/protected/Protected";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { useState } from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const App = () => {
