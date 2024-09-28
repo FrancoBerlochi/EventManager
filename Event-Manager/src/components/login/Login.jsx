@@ -61,8 +61,8 @@ const Login = ({ onLogin }) => {
         <Card className="mt-5 mx-5 p-5 shadow login-container">
             <Card.Body>
                 <Row className="justify-content-center">
-                    <h1 className="text-center">Iniciar Sesión</h1>
-                    <p className="text-center mt-2">Ingresa tus credenciales para acceder a tu cuenta</p>
+                    <h1 className="text-center form-title">Iniciar Sesión</h1>
+                    <p className="text-center mt-2 text text-secondary">Ingresa tus credenciales para acceder a tu cuenta</p>
                 </Row>
                 <Form className="mt-5">
                 <FormGroup className="mb-4">
