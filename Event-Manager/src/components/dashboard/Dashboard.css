@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+}
+
+.navbar {
+    padding: 1rem 2rem;
+    border-bottom: 1px solid gray;  
+    background-color: white;
+}
+
+.sidebar {
+    width: 14rem;
+    height: calc(100vh - 52px);
+    border-right: 1px solid gray;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 1rem 1rem;
+}
+
+.sidebar ul li {
+    margin-bottom: 1rem;
+    background-color: #101010;
+    padding: 0.5rem;
+    border-radius: 7px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+

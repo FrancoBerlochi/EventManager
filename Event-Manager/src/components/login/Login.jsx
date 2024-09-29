@@ -58,7 +58,9 @@ const Login = ({ onLogin }) => {
     };
 
     return (
-        <Card className="mt-5 mx-5 p-5 shadow login-container">
+        <div className="d-flex flex-column align-items-center">
+
+        <Card className="mt-5 mx-5 p-5 shadow login-container d-flex flex-column align-items-center">
             <Card.Body>
                 <Row className="justify-content-center">
                     <h1 className="text-center form-title">Iniciar Sesión</h1>
@@ -92,6 +94,7 @@ const Login = ({ onLogin }) => {
 
             </Card.Body>
         </Card>
+        </div>
     );
 };
 export default Login;
